@@ -41,6 +41,10 @@ h2,
     background: url("../img/bg/road.jpg")no-repeat center center fixed;
 }
 
+.bg-flotilla {
+    background: url("../img/bg/travel.jpg")no-repeat center center fixed;
+}
+
 .navbar {
     z-index: 1;
 }
