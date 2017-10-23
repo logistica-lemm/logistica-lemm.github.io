@@ -42,7 +42,7 @@ h2,
 }
 
 .bg-flotilla {
-    background: url("../img/bg/travel.jpg")no-repeat center center fixed;
+    background: url("../img/bg/travel.jpg")no-repeat center bottom;
 }
 
 .navbar {
