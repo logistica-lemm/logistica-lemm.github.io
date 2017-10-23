@@ -1,0 +1,105 @@
+/* Custom styles */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700');
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1,
+h2,
+.fira-font {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+
+.grey-shadow {
+    text-shadow: 4px 4px 4px #4B515D;
+}
+
+
+
+/* Backgrounds */
+.bg-general {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+}
+
+.bg-home {
+    background: url("https://i.imgur.com/xi4lCCB.jpg")no-repeat center center fixed;
+}
+
+.bg-nosotras {
+    background: url("../img/bg/road.jpg")no-repeat center center fixed;
+}
+
+.navbar {
+    z-index: 1;
+}
+
+
+
+/* Icon backgrounds */
+
+.blue-background {
+    color: #0099CC;
+}
+
+.yellow-background {
+    color: #FF8800;
+}
+
+.green-background {
+    color: #007E33;
+}
+
+.red-background {
+    color: #CC0000;
+}
+
+
+/* Social media backgrounds */
+.facebook-background {
+    color: #3b5998;
+}
+
+.twitter-background {
+    color: #00aced;
+}
+
+.google-background {
+    color: #d34836;
+}
+
+.youtube-background {
+    color: #cc181e;
+}
+
+
+
+/* Utilities */ 
+.remove-margin {
+    margin-bottom: -2rem;
+}
+
+hr.faded {
+    border-top: 1px solid #8c8b8b;
+}
+
+.h1:before {
+    display: block;
+    content: " ";
+    margin-top: -500px;
+    height: 500px;
+    visibility: hidden;
+}
+
+
