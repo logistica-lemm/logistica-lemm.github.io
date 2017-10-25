@@ -4,7 +4,7 @@ $('a[href*="#"]')
 // Exceptions
     .not('[href="#"]')
     .not('[href="#0"]')
-    .not('[href="#carouselIndicators"]')
+    .not('[href="#carousel-slide"]')
     .click(function(event) {
         // Links
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname
