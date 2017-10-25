@@ -89,21 +89,18 @@ h2,
 
 
 
-/* Utilities */ 
+/* Utilities */
 .remove-margin {
     margin-bottom: -2rem;
+}
+
+.carousel-description {
+    position: relative;
+    float: left;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 hr.faded {
     border-top: 1px solid #8c8b8b;
 }
-
-.h1:before {
-    display: block;
-    content: " ";
-    margin-top: -500px;
-    height: 500px;
-    visibility: hidden;
-}
-
-

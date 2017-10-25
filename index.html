@@ -35,7 +35,7 @@
                         <img src="img/logo/navbar.png" height="30" class="d-inline-block align-top" alt="">
                     </a>
                     <span class="navbar-text hidden-md-down pr-5 pl-5">
-                        <i class="fa fa-phone green-text pr-2" aria-hidden="true"></i>CDMX: <a href="tel:56131439">5613-1439</a> | <a href="tel:56135213">5613-5213</a> <i class="fa fa-phone green-text pr-2 pl-1 hidden-md-down" aria-hidden="true"></i><i class="hidden-md-down" >GDL: <a href="tel:+52-1-33-3666-9447">+52 1 33 3666 9447</a></i>
+                        <i class="fa fa-phone green-text pr-2" aria-hidden="true"></i>CDMX: <a href="tel:56131439">5613-1439</a> | <a href="tel:56135213">5613-5213</a> <i class="fa fa-phone green-text pr-2 pl-1 hidden-md-down" aria-hidden="true"></i>GDL: <a href="tel:+52-1-33-3666-9447">+52 1 33 3666 9447</a>
                     </span>
                     <div class="d-flex justify-content-lg-end">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
@@ -51,7 +51,7 @@
                                     <a class="nav-link" href="#nosotros">Nosotros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <!-- a class="nav-link" href="#flotilla">Flotilla</a -->
+                                    <a class="nav-link" href="#flotilla">Flotilla</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#footer">Contacto</a>
@@ -70,7 +70,7 @@
                             <div class="col-md-12">
                                 <div class="intro-info-content text-center white-text">
                                     <img src="img/logo/logo-small.png" height="400" class="inline-block align-top pb-5 pt-5 img-fluid wow fadeInDown" data-wow-delay="0.3s" alt="">
-                                    <!-- a class="btn btn-block btn-indigo btn-lg col-md-8 wow fadeInLeft" data-wow-delay="0.3s" href="#flotilla" >flotilla</a-->
+                                    <a class="btn btn-block btn-indigo btn-lg col-md-8 wow fadeInLeft" data-wow-delay="0.3s" href="#flotilla" >flotilla</a>
                                     <a class="btn btn-block btn-danger btn-lg col-md-8 wow fadeInRight" data-wow-delay="0.3s" href="#footer" >contáctanos</a>
                                 </div>
                             </div>
@@ -189,92 +189,158 @@
             <!-- /¿Por qué nosotros? -->
 
             <!-- Flotilla -->
-            <!-- Carousel oculto 
-            <div class="container-fluid bg-flotilla" id="flotilla" >
-                <h1 class="pt-3 fatface-font">Nuestra flotilla</h1>
-                <div class="col-md-12">
-                    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselIndicators" data-slide-to="2"></li>
-                            <li data-target="#carouselIndicators" data-slide-to="3"></li>
-                            <li data-target="#carouselIndicators" data-slide-to="4"></li>
-                            <li data-target="#carouselIndicators" data-slide-to="5"></li>
-                            <li data-target="#carouselIndicators" data-slide-to="6"></li>
-                            <li data-target="#carouselIndicators" data-slide-to="7"></li>
-                        </ol>
+            <div class="container-fluid py-5" id="flotilla">
+                <h1 class="pt-2 pb-3">Nuestra flotilla</h1>
+                <div class="container">
+                    <!-- Carousel Wrapper -->
+                    <div class="carousel slide carousel-fade" data-ride="carousel" id="carousel-slide" >
+                        <!-- Slides -->
                         <div class="carousel-inner" role="listbox">
+                            <!-- Spark -->
                             <div class="carousel-item active">
-                                <img class="d-block img-fluid" src="img/flota/flota0SF.png" alt="First slide">
-                                <div class="carousel-caption ">
-                                    <h3 >Trailers</h3>
-                                    <p >22 y 24 Toneladas. 90m y 100m3. Caja de 48 y 53 pies. </p>
+                                <!-- Image -->
+                                <div>
+                                    <img class="d-block w-100" src="img/flotilla/spark.png" alt="Spark">
                                 </div>
+                                <!-- /Image -->
+                                <!-- Description -->
+                                <div class="carousel-description text-left pt-4">
+                                    <h3 class="h3-responsive pb-2"><img src="https://png.icons8.com/sedan/color/24" title="Sedan" width="24" height="24" class="mr-3" >Spark</h3>
+                                    <p><img src="https://png.icons8.com/time-span/color/24" title="Time Span" width="24" height="24" class="mr-3">Paquetería express</p>
+                                </div>
+                                <!-- /Description -->
                             </div>
+                            <!-- /Spark -->
+                            <!-- Tornado -->
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="img/flota/flota1SF.png" alt="Second slide">
-                                <div class="carousel-caption ">
-                                    <h3>Torton</h3>
-                                    <p>12 Toneladas, 43.5m3, Medidas: 7.4-2.45-2.40</p>
+                                <!-- Image -->
+                                <div>
+                                    <img class="d-block w-100" src="img/flotilla/tornado.png" alt="Tornado">
+                                    <div class="mask"></div>
                                 </div>
+                                <!-- Description -->
+                                <div class="carousel-description text-left pt-4">
+                                    <h3 class="h3-responsive pb-2"><img src="https://png.icons8.com/truck/color/24" title="Truck" width="24" height="24" class="mr-3">Tornado</h3>
+                                    <p><img src="https://png.icons8.com/metal/color/24" title="Metal" width="24" height="24" class="mr-3">Carga: Hasta 500 Kg</p>
+                                    <p><img src="https://png.icons8.com/surface/color/24" title="Surface" width="24" height="24" class="mr-3">Espacio: 3.2m³</p>
+                                    <p><img src="https://png.icons8.com/sewing-tape-measure/color/24" title="Sewing Tape Measure" width="24" height="24" class="mr-3">Caja: 1.65m x 1.30m x 1.63m</p>
+                                </div>
+                                <!-- /Description -->
                             </div>
+                            <!-- /Tornado -->
+                            <!-- Nissan -->
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="img/flota/flota2SF.png" alt="Third slide">
-                                <div class="carousel-caption ">
-                                    <h3>Rabon</h3>
-                                    <p>8 Toneladas. Capacidad: 38.5m3, Medidas: 6.56-2.45-2.40</p>
+                                <!-- Image -->
+                                <div>
+                                    <img class="d-block w-100" src="img/flotilla/nissan.png" alt="Nissan">
                                 </div>
+                                <!-- Description -->
+                                <div class="carousel-description text-left pt-4">
+                                    <h3 class="h3-responsive pb-2"><img src="https://png.icons8.com/truck/color/24" title="Truck" width="24" height="24" class="mr-3">Nissan 1½</h3>
+                                    <p><img src="https://png.icons8.com/metal/color/24" title="Metal" width="24" height="24" class="mr-3">Carga: Hasta 1.5 toneladas</p>
+                                    <p><img src="https://png.icons8.com/surface/color/24" title="Surface" width="24" height="24" class="mr-3">Espacio: 6.4m³</p>
+                                    <p><img src="https://png.icons8.com/sewing-tape-measure/color/24" title="Sewing Tape Measure" width="24" height="24" class="mr-3">Caja: 2.28m x 1.73m x 1.63m</p>
+                                </div>
+                                <!-- /Description -->
                             </div>
+                            <!-- /Nissan -->
+                            <!-- Ford -->
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="img/flota/flota3SF.png" alt="Fourth slide">
-                                <div class="carousel-caption ">
-                                    <h3>Hino</h3>
-                                    <p>4.5 toneladas, 19, Médidas: 4.10-2.30-2.10</p>
+                                <!-- Image -->
+                                <div>
+                                    <img class="d-block w-100" src="img/flotilla/ford.png" alt="Ford">
                                 </div>
+                                <!-- Description -->
+                                <div class="carousel-description text-left pt-4">
+                                    <h3 class="h3-responsive pb-2"><img src="https://png.icons8.com/truck/color/24" title="Truck" width="24" height="24" class="mr-3">Ford 3½</h3>
+                                    <p><img src="https://png.icons8.com/metal/color/24" title="Metal" width="24" height="24" class="mr-3">Carga: Hasta 3.5 toneladas</p>
+                                    <p><img src="https://png.icons8.com/surface/color/24" title="Surface" width="24" height="24" class="mr-3">Espacio: 14.7m³</p>
+                                    <p><img src="https://png.icons8.com/sewing-tape-measure/color/24" title="Sewing Tape Measure" width="24" height="24" class="mr-3">Caja: 3.20m x 2.20m x 2.10m</p>
+                                </div>
+                                <!-- /Description -->
                             </div>
+                            <!-- /Ford -->
+                            <!-- Hino -->
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="img/flota/flota4SF.png" alt="Fifth slide">
-                                <div class="carousel-caption ">
-                                    <h3>Ford 3 1/2</h3>
-                                    <p>3 y media Toneladas, Capacidad: 14.7m3, Medidas: 3.20-2.20-2.10</p>
+                                <!-- Image -->
+                                <div>
+                                    <img class="d-block w-100" src="img/flotilla/hino.png">
                                 </div>
+                                <!-- Description -->
+                                <div class="carousel-description text-left pt-4">
+                                    <h3 class="h3-responsive pb-2"><img src="https://png.icons8.com/truck/color/24" title="Truck" width="24" height="24" class="mr-3">HINO</h3>
+                                    <p><img src="https://png.icons8.com/metal/color/24" title="Metal" width="24" height="24" class="mr-3">Carga: Hasta 4.5 toneladas</p>
+                                    <p><img src="https://png.icons8.com/surface/color/24" title="Surface" width="24" height="24" class="mr-3">Espacio: 19.8m³</p>
+                                    <p><img src="https://png.icons8.com/sewing-tape-measure/color/24" title="Sewing Tape Measure" width="24" height="24" class="mr-3">Caja: 4.10m x 2.30m x 2.10m</p>
+                                </div>
+                                <!-- /Description -->
                             </div>
+                            <!-- /Hino -->
+                            <!-- Rabon -->
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="img/flota/flota5SF.png" alt="Sixth slide">
-                                <div class="carousel-caption ">
-                                    <h3 >Nissan 1 y 1/2</h3>
-                                    <p>Media Una y media tonelada, Capacidad: 6.4m3, Medidas: 2.28 -1.73 - 1.63</p>
+                                <!-- Image -->
+                                <div>
+                                    <img class="d-block w-100" src="img/flotilla/rabon.png">
                                 </div>
+                                <!-- Description -->
+                                <div class="carousel-description text-left pt-4">
+                                    <h3 class="h3-responsive pb-2"><img src="https://png.icons8.com/truck/color/24" title="Truck" width="24" height="24" class="mr-3">RABON</h3>
+                                    <p><img src="https://png.icons8.com/metal/color/24" title="Metal" width="24" height="24" class="mr-3">Carga: Hasta 8 toneladas</p>
+                                    <p><img src="https://png.icons8.com/surface/color/24" title="Surface" width="24" height="24" class="mr-3">Espacio: 38.5m³</p>
+                                    <p><img src="https://png.icons8.com/sewing-tape-measure/color/24" title="Sewing Tape Measure" width="24" height="24" class="mr-3">Caja: 6.56m x 2.45m x 2.40m</p>
+                                </div>
+                                <!-- /Description -->
                             </div>
+                            <!-- /Rabon -->
+                            <!-- Torton -->
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="img/flota/flota6SF.png" alt="Seventh slide">
-                                <div class="carousel-caption ">
-                                    <h3>Tornado</h3>
-                                    <p>500kg. Capacidad: 3.2m3, Medidas: 1.65-1.30-1.63</p>
+                                <!-- Image -->
+                                <div>
+                                    <img class="d-block w-100" src="img/flotilla/torton.png">
                                 </div>
+                                <!-- Description -->
+                                <div class="carousel-description text-left pt-4">
+                                    <h3 class="h3-responsive pb-2"><img src="https://png.icons8.com/truck/color/24" title="Truck" width="24" height="24" class="mr-3">Torton</h3>
+                                    <p><img src="https://png.icons8.com/metal/color/24" title="Metal" width="24" height="24" class="mr-3">Carga: Hasta 12 toneladas</p>
+                                    <p><img src="https://png.icons8.com/surface/color/24" title="Surface" width="24" height="24" class="mr-3">Espacio: 43.5m³</p>
+                                    <p><img src="https://png.icons8.com/sewing-tape-measure/color/24" title="Sewing Tape Measure" width="24" height="24" class="mr-3">Caja: 7.4m x 2.45m x 2.40m</p>
+                                </div>
+                                <!-- /Description -->
                             </div>
+                            <!-- /Torton -->
+                            <!-- Trailer -->
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="img/flota/flota7SF.png" alt="Eighth slide">
-                                <div class="carousel-caption ">
-                                    <h3>Spark</h3>
-                                    <p>Paqueteria Express</p>
+                                <!-- Image -->
+                                <div>
+                                    <img class="d-block w-100" src="img/flotilla/trailer.png">
                                 </div>
+                                <!-- Description -->
+                                <div class="carousel-description text-left pt-4">
+                                    <h3 class="h3-responsive pb-2"><img src="https://png.icons8.com/truck/color/24" title="Truck" width="24" height="24" class="mr-3">Trailer</h3>
+                                    <p><img src="https://png.icons8.com/metal/color/24" title="Metal" width="24" height="24" class="mr-3">Carga: Hasta 22 toneladas</p>
+                                    <p><img src="https://png.icons8.com/surface/color/24" title="Surface" width="24" height="24" class="mr-3">Espacio: 90m³</p>
+                                    <p><img src="https://png.icons8.com/sewing-tape-measure/color/24" title="Sewing Tape Measure" width="24" height="24" class="mr-3">Caja: 14.63m x 2.43m x 2.59m</p>
+                                </div>
+                                <!-- /Description -->
                             </div>
+                            <!-- /Trailer -->
                         </div>
-                        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                        <!-- /Slides -->
+                        <!-- Controls -->
+                        <a class="carousel-control-prev" href="#carousel-slide" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carousel-slide" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
+                        <!-- /Controls -->
                     </div>
+                    <!-- /Carousel Wrapper -->
                 </div>
             </div>
-            -->
-            <!-- /Carousel -->
+            <!-- /Flotilla -->
 
             <!-- Nuestros clientes -->
             <div class="container-fluid grey lighten-4 py-5 remove-margin">
