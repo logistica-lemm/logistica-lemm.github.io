@@ -198,6 +198,24 @@ h2,
 
 
 
+/* SVG's */
+.carousel-control-next-icon-blue {
+    background-image: url("../img/svg/arrow_right.svg");
+    width: 36px;
+    height: 36px;
+    margin-top: -50%;
+}
+
+.carousel-control-prev-icon-blue {
+    background-image: url("../img/svg/arrow_left.svg");
+    width: 36px;
+    height: 36px;
+    margin-top: -50%;
+}
+
+
+
+
 /* Utilities */
 .remove-margin {
     margin-bottom: -2rem;
