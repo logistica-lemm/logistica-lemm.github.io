@@ -38,6 +38,7 @@ h2,
     color: #FFF;
 }
 
+
 /* Home */
 .bg-home {
     background-position: 90% center;
@@ -55,6 +56,7 @@ h2,
     }
 }
 
+
 /* ¿Por qué nosotros? */
 @media only screen and (max-width: 767px) {
     .bg-nosotras {
@@ -68,17 +70,24 @@ h2,
     }
 }
 
-/* Pattern */
+
+/* Clientes */
 @media only screen and (max-width: 767px) {
-    .bg-pattern {
-        background-image: url("../img/patterns/gplaypattern.png");
+    .bg-clientes {
+        background-image: url("../img/bg/shipping.jpg");
     }
 }
 
 @media only screen and (min-width: 767px) {
-    .bg-pattern {
-        background-image: url("../img/patterns/gplaypattern2.png");
+    .bg-clientes {
+        background-image: url("../img/bg/shipping.jpg");
     }
+}
+
+
+/* Pattern */
+.estratosfera-pattern {
+    background-image: url("../img/patterns/symphony.png");
 }
 
 .pattern-animation {
