@@ -68,21 +68,25 @@ h2,
 
 
 /* Clientes */
+.pattern-clientes {
+    background-repeat: repeat;
+}
+
 @media only screen and (max-width: 767px) {
-    .bg-clientes {
-        background-image: url("../img/bg/grass-small.jpg");
+    .pattern-clientes {
+        background-image: url("../img/patterns/gplaypattern.png");
     }
 }
 
 @media only screen and (min-width: 767px) {
-    .bg-clientes {
-        background-image: url("../img/bg/grass.jpg");
+    .pattern-clientes {
+        background-image: url("../img/patterns/gplaypattern2.png");
     }
 }
 
 
 /* Pattern */
-.estratosfera-pattern {
+.pattern-estratosfera {
     background-image: url("../img/patterns/symphony.png");
 }
 
