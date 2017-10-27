@@ -40,19 +40,15 @@ h2,
 
 
 /* Home */
-.bg-home {
-    background-position: 90% center;
-}
-
 @media only screen and (max-width: 767px) {
     .bg-home {
-        background-image: url("../img/bg/truck-small.jpg");
+        background-image: url("../img/bg/home-small.jpg");
     }
 }
 
 @media only screen and (min-width: 767px) {
     .bg-home {
-        background-image: url("../img/bg/truck-logo.jpg");
+        background-image: url("../img/bg/home.jpg");
     }
 }
 
@@ -74,13 +70,13 @@ h2,
 /* Clientes */
 @media only screen and (max-width: 767px) {
     .bg-clientes {
-        background-image: url("../img/bg/shipping.jpg");
+        background-image: url("../img/bg/grass-small.jpg");
     }
 }
 
 @media only screen and (min-width: 767px) {
     .bg-clientes {
-        background-image: url("../img/bg/shipping.jpg");
+        background-image: url("../img/bg/grass.jpg");
     }
 }
 
