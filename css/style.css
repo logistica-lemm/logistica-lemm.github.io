@@ -24,8 +24,13 @@ h2,
 
 
 
+
 /* Backgrounds */
 .bg-general {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,21 +38,113 @@ h2,
     color: #FFF;
 }
 
+/* Home */
 .bg-home {
-    background: url("https://i.imgur.com/xi4lCCB.jpg")no-repeat center center fixed;
+    background-position: 90% center;
 }
 
-.bg-nosotras {
-    background: url("../img/bg/road.jpg")no-repeat center center fixed;
+@media only screen and (max-width: 767px) {
+    .bg-home {
+        background-image: url("../img/bg/truck-small.jpg");
+    }
 }
 
-.bg-flotilla {
-    background: url("../img/bg/travel.jpg")no-repeat center bottom;
+@media only screen and (min-width: 767px) {
+    .bg-home {
+        background-image: url("../img/bg/truck-logo.jpg");
+    }
 }
+
+/* ¿Por qué nosotros? */
+@media only screen and (max-width: 767px) {
+    .bg-nosotras {
+        background-image: url("../img/bg/road-small.jpg");
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .bg-nosotras {
+        background-image: url("../img/bg/road.jpg");
+    }
+}
+
+/* Pattern */
+@media only screen and (max-width: 767px) {
+    .bg-pattern {
+        background-image: url("../img/patterns/gplaypattern.png");
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .bg-pattern {
+        background-image: url("../img/patterns/gplaypattern2.png");
+    }
+}
+
+.pattern-animation {
+    -webkit-animation: 50s scroll infinite linear;
+    -moz-animation: 50s scroll infinite linear;
+    -o-animation: 50s scroll infinite linear;
+    -ms-animation: 50s scroll infinite linear;
+    animation: 50s scroll infinite linear;
+    top: 0;
+    left: 0;
+}
+
+@-webkit-keyframes scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2000px 0;
+    }
+}
+
+@-moz-keyframes scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2000px 0;
+    }
+}
+
+@-o-keyframes scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2000px 0;
+    }
+}
+
+@-ms-keyframes scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2000px 0;
+    }
+}
+
+@keyframes scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2000px 0;
+    }
+}
+
+
+
+
+/* Navbar */
 
 .navbar {
     z-index: 1;
 }
+
 
 
 
@@ -70,6 +167,8 @@ h2,
 }
 
 
+
+
 /* Social media backgrounds */
 .facebook-background {
     color: #3b5998;
@@ -86,6 +185,7 @@ h2,
 .youtube-background {
     color: #cc181e;
 }
+
 
 
 
