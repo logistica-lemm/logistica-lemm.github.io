@@ -25,6 +25,15 @@ h2,
 
 
 
+/* Navbar */
+
+.navbar {
+    z-index: 1;
+}
+
+
+
+
 /* Backgrounds */
 .bg-general {
     background-position: center center;
@@ -84,100 +93,46 @@ h2,
     }
 }
 
-
-.carrousel-full {
-    min-height: 600;
+.pattern-clientes-scroll {
+-webkit-animation:100s scroll infinite linear;
+  -moz-animation:100s scroll infinite linear;
+  -o-animation:100s scroll infinite linear;
+  -ms-animation:100s scroll infinite linear;
+  animation:100s scroll infinite linear;
+  top:0;
+  left:0;
+  width:100%;
+ height:100%;
 }
 
-
-/* Pattern */
-.pattern-estratosfera {
-    background-image: url("../img/patterns/symphony.png");
+@-webkit-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
 }
 
-.pattern-animation {
-    -webkit-animation: 50s scroll infinite linear;
-    -moz-animation: 50s scroll infinite linear;
-    -o-animation: 50s scroll infinite linear;
-    -ms-animation: 50s scroll infinite linear;
-    animation: 50s scroll infinite linear;
-    top: 0;
-    left: 0;
+@-moz-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
 }
 
-@-webkit-keyframes scroll {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: -2000px 0;
-    }
+@-o-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
 }
 
-@-moz-keyframes scroll {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: -2000px 0;
-    }
+@-ms-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
 }
 
-@-o-keyframes scroll {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: -2000px 0;
-    }
-}
-
-@-ms-keyframes scroll {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: -2000px 0;
-    }
-}
-
-@keyframes scroll {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: -2000px 0;
-    }
-}
-
-
-
-
-/* Navbar */
-
-.navbar {
-    z-index: 1;
-}
-
-
-
-
-/* Icon backgrounds */
-
-.blue-background {
-    color: #0099CC;
-}
-
-.yellow-background {
-    color: #FF8800;
-}
-
-.green-background {
-    color: #007E33;
-}
-
-.red-background {
-    color: #CC0000;
+@keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
 }
 
 
@@ -203,6 +158,21 @@ h2,
 
 
 
+/* Utilities */
+.remove-margin {
+    margin-bottom: -2rem;
+}
+
+.carousel-description {
+    position: relative;
+    float: left;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+
 /* SVG's */
 .carousel-control-next-icon-blue {
     background-image: url("../img/svg/arrow_right.svg");
@@ -221,18 +191,62 @@ h2,
 
 
 
-/* Utilities */
-.remove-margin {
-    margin-bottom: -2rem;
+/* Footer pattern */
+.pattern-estratosfera {
+    background-image: url("../img/patterns/symphony.png");
 }
 
-.carousel-description {
-    position: relative;
-    float: left;
-    left: 50%;
-    transform: translate(-50%);
+.pattern-footer-scroll {
+    -webkit-animation: 50s footer-scroll infinite linear;
+    -moz-animation: 50s footer-scroll infinite linear;
+    -o-animation: 50s footer-scroll infinite linear;
+    -ms-animation: 50s footer-scroll infinite linear;
+    animation: 50s footer-scroll infinite linear;
+    top: 0;
+    left: 0;
 }
 
-hr.faded {
-    border-top: 1px solid #8c8b8b;
+@-webkit-keyframes footer-scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2000px 0;
+    }
+}
+
+@-moz-keyframes footer-scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2000px 0;
+    }
+}
+
+@-o-keyframes footer-scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2000px 0;
+    }
+}
+
+@-ms-keyframes footer-scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2000px 0;
+    }
+}
+
+@keyframes footer-scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2000px 0;
+    }
 }
