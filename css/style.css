@@ -85,6 +85,11 @@ h2,
 }
 
 
+.carrousel-full {
+    min-height: 600;
+}
+
+
 /* Pattern */
 .pattern-estratosfera {
     background-image: url("../img/patterns/symphony.png");
