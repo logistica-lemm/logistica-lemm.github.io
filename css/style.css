@@ -35,7 +35,7 @@ h2,
 
 
 /* Backgrounds */
-.bg-general {
+.bg-genera  {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -61,15 +61,26 @@ h2,
     }
 }
 
+/* iPhone 6, 6S, 7 and 8 */
+@media only screen
+and (max-device-width: 767)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .bg-home {
+        background-image: url("../img/bg/home-small.jpg");
+    }
+}
+
+
+
 
 /* ¿Por qué nosotros? */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
     .bg-nosotras {
         background-image: url("../img/bg/road-small.jpg");
     }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 600px) {
     .bg-nosotras {
         background-image: url("../img/bg/road.jpg");
     }
