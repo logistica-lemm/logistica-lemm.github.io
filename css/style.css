@@ -80,6 +80,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 }
 
+@media only screen
+and (max-device-width: 767)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .bg-home {
+        background-image: url("../img/bg/road-small.jpg");
+    }
+}
+
 @media only screen and (min-width: 600px) {
     .bg-nosotras {
         background-image: url("../img/bg/road.jpg");
