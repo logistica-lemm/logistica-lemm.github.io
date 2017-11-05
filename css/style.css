@@ -67,7 +67,7 @@ and (max-device-width: 767)
 and (-webkit-min-device-pixel-ratio: 2) {
     .bg-home {
         background-image: url("../img/bg/home-small.jpg");
-        background-position: center;
+        background-position: right;
     }
 }
 
